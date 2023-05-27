@@ -35,4 +35,21 @@ a[6:11]
 
 #Q11. Create a variable named "is_student" and assign it a boolean value indicating whether you are
 #currently a student or not.
+
+is_student=True
+if is_student==True:
+     print("i am a student")
+else:
+    print("i am not a student")
+#or
+is_student=input('are you a student')
+if is_student=='yes':
+    print(True)
+else:
+    print(False)
+are you a student: yes
+True
+
+#or
+  
 is_student=True
